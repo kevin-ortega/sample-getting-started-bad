@@ -50,7 +50,7 @@ public class SystemRuntime {
 				}
 			}
         } catch (Exception ex) {
-            System.out.println("Unable to retrieve server version.");
+            System.out.println("Not able to retrieve server version.");
         }
         return version;
     }
